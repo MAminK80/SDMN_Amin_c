@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: bridge_1
+ labels:
+  app: web
+  app_2: bridge
+spec:
+ containers:
+ - name: webserver
+  image: nginx:1.21.1
