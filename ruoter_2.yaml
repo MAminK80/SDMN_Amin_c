@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: ruoter_2
+ labels:
+  app_2: bridge
+spec:
+ containers:
+ - name: webserver
+  image: nginx:1.21.1
+  ip: 10.10.0.1
