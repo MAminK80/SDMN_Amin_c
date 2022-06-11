@@ -1,1 +1,0 @@
-# SDMN_Amin_c
